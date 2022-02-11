@@ -1,0 +1,12 @@
+#nav-bar{
+    height: 50px;
+}
+
+#logo-jumbo{
+    width: 200px;
+}
+
+section#portfolio div.row div img{
+    width: 100%;
+    border-radius: 10px;
+}
