@@ -1,12 +1,59 @@
-#nav-bar{
-    height: 50px;
-}
-
 #logo-jumbo{
     width: 200px;
 }
 
-section#portfolio div.row div img{
+div#portfolio div.row div img{
     width: 100%;
     border-radius: 10px;
+}
+
+#about-text, 
+#btn-about-text, 
+#footer-text,
+#footer-copyright{
+    margin: auto;
+}
+
+#btn-about-text{
+    min-width: 120px;
+}
+
+#btn-send{
+    min-width: 70px;
+}
+
+.my-text-blue{
+    color: rgba(44,62,80,255);
+}
+
+.my-text-green{
+    color: rgba(26,188,156,255);;
+}
+
+.my-bg-green{
+    background-color: rgba(26,188,156,255);
+}
+
+.my-bg-blue{
+    background-color: rgba(58,84,109,255);
+}
+
+.my-bg-dark-blue{
+    background-color: rgba(44,62,80,255);
+}
+
+.fa-download{
+    margin-right: 5px;
+}
+
+.fab{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 35px;
+}
+
+i.fab{
+    line-height: 35px;
 }

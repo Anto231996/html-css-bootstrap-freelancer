@@ -11,70 +11,116 @@
 </head>
 <body>
 
-    <header class="container-fluid">
-        <nav class="row bg-primary" id="nav-bar">
-            <h5 class="col-10 text-uppercase text-white">start bootstrap</h5>
-            <div class="col">menu</div>
-        </nav>
+    <header>
+        <nav class="container-fluid my-bg-dark-blue">
+
+        </nav>        
     </header>
 
-    <section class="container-fluid bg-success">
-        <div class="row mb-4">
-            <div class="col-12"><img class="mx-auto d-block" id="logo-jumbo" src="img/avatar.svg" alt=""></div>
-
-            <h2 class="col-12 text-center text-uppercase text-white">start bootstrap</h2>
-
-            <div class="col-12 text-center text-white mb-2"><i class="fas fa-star"></i></div>
-
-            <h6 class="col-12 text-center text-uppercase text-white">graphic artist - web designer - illustrator</h6>
-        </div>
-    </section>
-
-    <main class="container">
-        <section id="portfolio">
-            <div class="row">
-                <h3 class="col text-center text-uppercase">portfolio</h3>
-            </div> 
+    <main>
+        <section class="container-fluid my-bg-green p-3 mb-5">
             <div class="row mb-4">
-                <div class="col text-center"><i class="fas fa-star"></i></div>
+                <div class="col-12"><img class="mx-auto d-block" id="logo-jumbo" src="img/avatar.svg" alt=""></div>
+
+                <h1 class="col-12 text-center text-uppercase text-white">start bootstrap</h1>
+
+                <div class="col-12 text-center text-white mb-2"><i class="fas fa-star"></i></div>
+
+                <h6 class="col-12 text-center text-uppercase text-white">graphic artist - web designer - illustrator</h6>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/cabin.png" alt="">
+        </section>
+    
+        <section class="container">
+            <div id="portfolio">
+                <div class="row">
+                    <h2 class="col text-center text-uppercase my-text-blue">portfolio</h2>
+                </div> 
+                <div class="row mb-4">
+                    <div class="col text-center my-text-blue"><i class="fas fa-star"></i></div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/cake.png" alt="">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/cabin.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/cake.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/circus.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/game.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/safe.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <img src="img/submarine.png" alt="">
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/circus.png" alt="">
+            </div>
+        </section>
+
+        <section class="container-fluid my-bg-green p-5">
+            <div class="row mb-4">
+                <h2 class="col text-center text-uppercase text-white">about</h2>
+
+                <div class="col-12 text-center text-white mb-2"><i class="fas fa-star"></i></div>
+            </div>
+            <div class="row container" id="about-text">
+                <p class="col-12 col-md-6 col-lg-6 text-white">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
+                <p class="col-12 col-md-6 col-lg-6 text-white mb-5">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect starting point!</p>
+                <div class="row">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-outline-light" id="btn-about-text"><i class="fas fa-download"></i>Download</button>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/game.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/safe.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <img src="img/submarine.png" alt="">
-                </div>
+            </div>         
+        </section>
+
+        <section class="container-fluid p-5">
+            <div class="row mb-4">
+                <h2 class="col text-center text-uppercase my-text-blue">contact me</h2>
+
+                <div class="col-12 text-center my-text-blue mb-2"><i class="fas fa-star"></i></div>
+            </div>
+            <div class="row container input-group mb-3" id="about-text">
+                <div class="col-12 col-md-12 col-lg-12 mb-3"><input type="text" class="form-control" placeholder="Name" aria-label="Name"></div>
+                <div class="col-12 col-md-12 col-lg-12 mb-3"><input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address"></div>
+                <div class="col-12 col-md-12 col-lg-12 mb-3"><input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number"></div>
+                <div class="col-12 col-md-12 col-lg-12 mb-3"><textarea class="form-control" placeholder="Message" aria-label="Message"></textarea></div> 
+                <div><input class="col-2 col-md-2 col-lg-1 btn my-bg-green text-white" id="btn-send" type="send" value="Send"></div>
             </div>
         </section>
     </main>
 
-    <section class="container-fluid bg-success">
-        <div class="row mb-4">
-            <h3 class="col text-center text-uppercase text-white">about</h3>
-
-            <div class="col-12 text-center text-white mb-2"><i class="fas fa-star"></i></div>
+    <footer>
+        <div class="container-fluid my-bg-blue p-3">
+            <div class="row container pt-3" id="footer-text">
+                <div class="col-12 col-md-4 col-lg-3 text-center text-white mb-3">
+                    <h5 class="text-uppercase">location</h5>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-6 text-center text-white mb-3">
+                    <h5 class="text-uppercase">around the web</h5>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center text-white mb-3">
+                    <h5 class="text-uppercase">about freelancer</h5>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <span class="my-text-green">Start Bootstrap</span>.</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <p class="col-12 col-md-6 col-xl-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
-            <p class="col-12 col-md-6 col-xl-6">Whether you're a student looking to showcase your work, a professional looking to share your project, this template is the perfect starting point!</p>
-        </div>
-            
-        
-    </section>
 
+        <div class="container-fluid my-bg-dark-blue p-3">
+            <div class="row container text-center text-white p-3" id="footer-copyright">
+                <span class="col">Copyright <i class="far fa-copyright"></i> Your Website 2019</span>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
