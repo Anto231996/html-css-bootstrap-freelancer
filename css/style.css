@@ -2,17 +2,13 @@ main section #logo-jumbo{
     width: 200px;
 }
 
-main section div#portfolio div.row div img{
+main section div.row div img{
     width: 100%;
     border-radius: 10px;
 }
 
 #btn-download{
-    width: 160px;
-}
-
-#btn-send{
-    width: 70px;
+    width: 150px;
 }
 
 .my-text-blue{
@@ -49,4 +45,5 @@ main section div#portfolio div.row div img{
 
 i.fab{
     line-height: 35px;
+    margin: 0 3px;
 }
