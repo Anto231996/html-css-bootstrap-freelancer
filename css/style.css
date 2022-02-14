@@ -1,26 +1,19 @@
-main section #logo-jumbo{
+main section img#logo-jumbo{
     width: 200px;
 }
 
-main section div.row div img{
+main section img{
     width: 100%;
     border-radius: 10px;
 }
 
-.nav-link{
-    color: white;
-}
-
-.navbar-toggler-icon{
-    color: white;
-}
-
-#btn-download{
-    width: 150px;
-}
-
-.my-text-blue{
-    color: rgba(44,62,80,255);
+footer section#info i.fab{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 35px;
+    margin: 0 3px;
 }
 
 .my-text-green{
@@ -31,32 +24,19 @@ main section div.row div img{
     background-color: rgba(26,188,156,255);
 }
 
-.my-bg-blue{
-    background-color: rgba(58,84,109,255);
+.my-text-dark-blue{
+    color: rgba(44,62,80,255);
 }
 
 .my-bg-dark-blue{
     background-color: rgba(44,62,80,255);
 }
 
-.fa-download{
-    margin-right: 5px;
+.my-bg-blue{
+    background-color: rgba(58,84,109,255);
 }
 
-.fab{
-    border: 1px solid white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    line-height: 35px;
-}
-
-i.fab{
-    line-height: 35px;
-    margin: 0 3px;
-}
-
-.line{
+.line-stars{
     height: 2px;
     width: 100px;
 }
